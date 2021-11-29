@@ -47,8 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:background="#00000000"
-                android:inputType="textEmailAddress"
                 android:hint="이메일"
+                android:inputType="textEmailAddress"
                 android:textColor="@color/white"
                 android:textColorHint="#DFDFDF" />
 
@@ -71,23 +71,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
             android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:padding="5dp"
-                android:src="@drawable/password_icon"/>
+                android:src="@drawable/password_icon" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:background="#00000000"
-                android:inputType="textPassword"
                 android:hint="o o o o o o o o"
+                android:inputType="textPassword"
                 android:textColor="@color/white"
                 android:textColorHint="#DFDFDF" />
 
@@ -101,11 +101,14 @@
 
 
     </LinearLayout>
-    
-    <Button
-        android:layout_width=""
-        android:layout_height=""
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:backgroundTint="#808080"
+        android:text="로그인" />
 
 
 </LinearLayout>
